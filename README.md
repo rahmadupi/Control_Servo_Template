@@ -1,4 +1,4 @@
-# Template Dynamixel XL-330
+# Template Dynamixel XL-320
 ## Mode
 ### Set LED
 ```cpp
