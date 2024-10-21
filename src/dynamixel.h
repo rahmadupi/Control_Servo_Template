@@ -13,8 +13,8 @@ using namespace ControlTableItem;
 #define DEBUG_PRINTF(...) Serial.printf(__VA_ARGS__)
 
 /* Jumlah Servo */
-#define XL320_ID_CNT 3
-#define XL320_TIME 3
+#define XL320_ID_CNT 2
+#define XL320_TIME 2
 
 /* Pin */
 #define UART_1_RX 19
@@ -120,7 +120,6 @@ void XL_MotionTask(void *parameter);
  * @brief Task untuk membaca data dari XL320
  */
 void ReadXL320_Joint();
-
 
 /*   ┌——————————————————————————————————————————————————————————————————————————————————————————————┐
      │                                      Inline Functions                                       │

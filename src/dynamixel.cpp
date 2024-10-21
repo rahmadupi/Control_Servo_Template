@@ -1,7 +1,7 @@
 #include "dynamixel.h"
 
 // Deklarasi ID dari masing-masing servo
-const uint8_t XL320_ID[XL320_ID_CNT] = {1, 2, 3};  // Updated ID
+const uint8_t XL320_ID[XL320_ID_CNT] = {1, 2};  // Updated ID
 
 uint8_t xl_user_buffer[BUFFER_SIZE];
 
